@@ -12,6 +12,7 @@
 
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 namespace Oculus.Voice.Demo.BuiltInDemo
 {
@@ -19,12 +20,12 @@ namespace Oculus.Voice.Demo.BuiltInDemo
     {
         public TimerController timer;
 
-        private Text _uiText;
+        private TextMeshProUGUI _uiText;
 
         // Start is called before the first frame update
         void Start()
         {
-            _uiText = GetComponent<Text>();
+            _uiText = GetComponent<TextMeshProUGUI>();
         }
 
         // Update is called once per frame

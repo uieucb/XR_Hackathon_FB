@@ -13,6 +13,7 @@
 using System;
 using UnityEngine;
 using UnityEngine.UI;
+using TMPro;
 
 namespace Oculus.Voice.Demo.BuiltInDemo
 {
@@ -26,7 +27,7 @@ namespace Oculus.Voice.Demo.BuiltInDemo
         private bool _timerRunning = false;
 
         [Tooltip("The UI text element to show app messages.")]
-        public Text logText;
+        public TextMeshProUGUI logText;
 
         [Tooltip("The timer ring sound.")] public AudioClip buzzSound;
 
@@ -201,7 +202,8 @@ namespace Oculus.Voice.Demo.BuiltInDemo
         /// <returns></returns>
         public string GetFormattedTimeFromSeconds()
         {
-            return TimeSpan.FromSeconds(_time).ToString();
+             return Mathf.FloorToInt(_time / 60.0f).ToString("0") + ":" + Mathf.FloorToInt(_time % 60.0f).ToString("00");
+            // return TimeSpan.FromSeconds(_time).ToString("0");
         }
 
         /// <summary>
