@@ -29,6 +29,21 @@ EditorBuildSettings:
   - enabled: 0
     path: Assets/Oculus/SampleFramework/Usage/Passthrough/Scenes/SelectivePassthrough.unity
     guid: 0e7861142f653584586c707ede59072e
+  - enabled: 0
+    path: Assets/Oculus/SampleFramework/Usage/Passthrough.unity
+    guid: 58e5fc2486c774a4e88ac76261268d52
+  - enabled: 0
+    path: Assets/Oculus/SampleFramework/Usage/CustomHands.unity
+    guid: a4f984fcee593d2418cc61f4a993d46d
+  - enabled: 0
+    path: Assets/Oculus/SampleFramework/Usage/HandsInteractionTrainScene.unity
+    guid: a9c41884ef0c347628dfd8a4af4a022e
+  - enabled: 0
+    path: Assets/Oculus/SampleFramework/Usage/Passthrough/Scenes/PassthroughHands.unity
+    guid: c94e480e4a6da614693c0cd3372e2d2d
+  - enabled: 0
+    path: Assets/_karen/Scenes/pruebamanos.unity
+    guid: 1733865cc2bfcb643ba12bcfa17544b1
   m_configObjects:
     Unity.XR.Oculus.Settings: {fileID: 11400000, guid: e933ac6131720494f9f0f6988b44b0dc, type: 2}
     com.unity.xr.management.loader_settings: {fileID: 11400000, guid: 6c48eef4778459f46833868080733b8e, type: 2}

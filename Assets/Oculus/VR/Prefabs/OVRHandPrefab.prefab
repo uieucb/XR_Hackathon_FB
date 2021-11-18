@@ -109,8 +109,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 73eac66b128fc8749a21623225c34541, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  _ovrMesh: {fileID: 0}
-  _ovrSkeleton: {fileID: 0}
+  _ovrMesh: {fileID: 114925265787909616}
+  _ovrSkeleton: {fileID: 114567484643301796}
   _confidenceBehavior: 1
   _systemGestureBehavior: 1
   _systemGestureMaterial: {fileID: 0}
@@ -156,7 +156,7 @@ SkinnedMeshRenderer:
   m_SortingOrder: 0
   serializedVersion: 2
   m_Quality: 0
-  m_UpdateWhenOffscreen: 0
+  m_UpdateWhenOffscreen: 1
   m_SkinnedMotionVectors: 1
   m_Mesh: {fileID: 0}
   m_Bones: []

@@ -49,6 +49,7 @@ public class ObjectManipulator : MonoBehaviour
 
     void Update()
     {
+    
         Vector3 controllerPos = OVRInput.GetLocalControllerPosition(controller);
         Quaternion controllerRot = OVRInput.GetLocalControllerRotation(controller);
 
