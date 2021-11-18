@@ -41,6 +41,7 @@ public class audioController : MonoBehaviour
 
         if(PlayerPrefs.GetInt("Muted", 0) == 0){
         AudioListener.volume = 1;
+        print("Sound On");
         audioBtnOn.SetActive(true);
         audioBtnOff.SetActive(false);
         }
