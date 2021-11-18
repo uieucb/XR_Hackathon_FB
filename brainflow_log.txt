@@ -8618,3 +8618,23 @@
 [2021-11-18 01:13:13.053] [board_logger] [trace] File Streamer, file: brainflow_data.csv, mods: w
 [2021-11-18 01:13:13.053] [board_logger] [info] use command b to start streaming
 [2021-11-18 01:13:13.135] [board_logger] [debug] start streaming
+[2021-11-18 11:49:01.632] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2021-11-18 11:49:01.658] [board_logger] [debug] use dyn lib: D:\Unity\Projects\XR_Hackathon_FB\GanglionLib.dll
+[2021-11-18 11:49:01.658] [board_logger] [trace] Board object created 1
+[2021-11-18 11:49:01.692] [board_logger] [debug] Library is loaded
+[2021-11-18 11:49:01.692] [board_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2021-11-18 11:49:01.692] [board_logger] [debug] ganglionlib initialized
+[2021-11-18 11:49:01.692] [board_logger] [info] mac address is not specified, try to find ganglion without it
+[2021-11-18 11:49:03.081] [board_logger] [trace] File Streamer, file: brainflow_data.csv, mods: w
+[2021-11-18 11:49:03.081] [board_logger] [info] use command b to start streaming
+[2021-11-18 11:49:03.164] [board_logger] [debug] start streaming
+[2021-11-18 11:50:06.556] [board_logger] [info] incoming json: {"file":"","ip_address":"","ip_port":0,"ip_protocol":0,"mac_address":"","other_info":"","serial_number":"","serial_port":"COM3","timeout":0}
+[2021-11-18 11:50:06.556] [board_logger] [debug] use dyn lib: D:\Unity\Projects\XR_Hackathon_FB\GanglionLib.dll
+[2021-11-18 11:50:06.556] [board_logger] [trace] Board object created 1
+[2021-11-18 11:50:06.557] [board_logger] [debug] Library is loaded
+[2021-11-18 11:50:06.557] [board_logger] [info] use 15 as a timeout for device discovery and for callbacks
+[2021-11-18 11:50:06.557] [board_logger] [debug] ganglionlib initialized
+[2021-11-18 11:50:06.557] [board_logger] [info] mac address is not specified, try to find ganglion without it
+[2021-11-18 11:50:07.984] [board_logger] [trace] File Streamer, file: brainflow_data.csv, mods: w
+[2021-11-18 11:50:07.985] [board_logger] [info] use command b to start streaming
+[2021-11-18 11:50:08.067] [board_logger] [debug] start streaming
